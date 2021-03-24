@@ -1,101 +1,127 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Eureka Demo</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Eureka Demo</description>
+    <title>Tags on Cactus theme example</title>
+    <link>https://walves69.github.io/blogdown-exemplo/tags/</link>
+    <description>Recent content in Tags on Cactus theme example</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
-</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>You</copyright>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://walves69.github.io/blogdown-exemplo/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>plot</title>
-      <link>/tags/plot/</link>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/plot/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>/tags/plot/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>/tags/r-markdown/</link>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>/tags/r-markdown/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>/tags/regression/</link>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/regression/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>/tags/regression/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>image</title>
-      <link>/tags/image/</link>
-      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      <title>Algorithms</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/algorithms/</link>
+      <pubDate>Sat, 06 Jun 2020 09:00:00 +0000</pubDate>
       
-      <guid>/tags/image/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/algorithms/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>css</title>
-      <link>/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>programming language</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/programming-language/</link>
+      <pubDate>Wed, 29 Apr 2020 09:00:00 +0000</pubDate>
       
-      <guid>/tags/css/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/programming-language/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>html</title>
-      <link>/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>racket</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/racket/</link>
+      <pubDate>Sat, 29 Feb 2020 09:00:00 +0000</pubDate>
       
-      <guid>/tags/html/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/racket/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>SML</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/sml/</link>
+      <pubDate>Mon, 30 Dec 2019 09:00:00 +0000</pubDate>
       
-      <guid>/tags/markdown/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/sml/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>themes</title>
-      <link>/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>RPA</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/rpa/</link>
+      <pubDate>Sat, 23 Nov 2019 09:00:00 +0000</pubDate>
       
-      <guid>/tags/themes/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/rpa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>text</title>
-      <link>/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      <title>JavaScript</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/javascript/</link>
+      <pubDate>Sun, 10 Nov 2019 09:00:00 +0000</pubDate>
       
-      <guid>/tags/text/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>emoji</title>
-      <link>/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Vue.js</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/vue.js/</link>
+      <pubDate>Fri, 25 Jan 2019 09:00:00 +0000</pubDate>
       
-      <guid>/tags/emoji/</guid>
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/vue.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/php/</link>
+      <pubDate>Wed, 11 Jan 2017 18:39:17 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/ruby/</link>
+      <pubDate>Thu, 08 Dec 2016 22:54:49 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://walves69.github.io/blogdown-exemplo/tags/linux/</link>
+      <pubDate>Tue, 29 Nov 2016 21:08:52 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/tags/linux/</guid>
       <description></description>
     </item>
     
