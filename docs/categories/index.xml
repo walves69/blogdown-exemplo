@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Exemplo de Blogdown</title>
-    <link>https://walves69.github.io/blogdown-exemplo/categories/</link>
-    <description>Recent content in Categories on Exemplo de Blogdown</description>
+    <title>Categories on Eureka Demo</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Eureka Demo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://walves69.github.io/blogdown-exemplo/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://www.wangchucheng.com/&#34;&gt;C. Wang&lt;/a&gt; and &lt;a href=&#34;https://www.ruiqima.com/&#34;&gt;R. Ma&lt;/a&gt;
+</copyright>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R</title>
-      <link>https://walves69.github.io/blogdown-exemplo/categories/r/</link>
+      <link>/categories/r/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://walves69.github.io/blogdown-exemplo/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>syntax</title>
-      <link>https://walves69.github.io/blogdown-exemplo/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://walves69.github.io/blogdown-exemplo/categories/syntax/</guid>
+      <guid>/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>https://walves69.github.io/blogdown-exemplo/categories/themes/</link>
+      <link>/categories/themes/</link>
+      <pubDate>Tue, 26 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>syntax</title>
+      <link>/categories/syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://walves69.github.io/blogdown-exemplo/categories/themes/</guid>
+      <guid>/categories/syntax/</guid>
       <description></description>
     </item>
     
