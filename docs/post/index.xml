@@ -17,5 +17,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>teste2</title>
+      <link>https://walves69.github.io/blogdown-exemplo/post/2021-03-27-teste2/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/post/2021-03-27-teste2/</guid>
+      <description>Teste 2</description>
+    </item>
+    
+    <item>
+      <title>teste3</title>
+      <link>https://walves69.github.io/blogdown-exemplo/post/2021-03-27-teste3/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/post/2021-03-27-teste3/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

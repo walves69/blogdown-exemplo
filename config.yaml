@@ -11,7 +11,7 @@ menu:
       url: /
       weight: 1
     - name: Writings
-      url: /post
+      url: /posts
       weight: 2
     - name: Tags
       url: /tags
@@ -37,7 +37,7 @@ params:
     to provide an optimal viewing experience for your website’s end users and an ideal
     writing experience for website authors.
   googleAnalyticsAsync: yes
-  mainSection: post
+  mainSection: posts
   postsOnHomePage: 5
   projectsUrl: https://github.com/gohugoio
   rss: yes
