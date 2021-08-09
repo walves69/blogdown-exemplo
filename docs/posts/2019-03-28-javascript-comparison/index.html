@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> JavaScript Comparison operation at a glance | Cactus theme example</title>
-  <meta name="description" content="Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.">
+  <title> JavaScript Comparison operation at a glance | Wllyssys Alves</title>
+  <link rel = 'canonical' href = 'http://walves.blog.br/posts/2019-03-28-javascript-comparison/'>
+  <meta name="description" content="Trabalhando no Banco do Brasil e estudando Ciência de Dados. Este local surgiu inspirado nas ideias da comunidade [IndieWeb](https://indieweb.org/) e [Digital Garden](https://maggieappleton.com/garden-history/).">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta property="og:title" content="JavaScript Comparison operation at a glance" />
 <meta property="og:description" content="When given a scenario like:
-console.log(null &gt; -1) //true It produces true, which makes me think null is treated as 0. But when I run:
-console.log(null == 0) // false console.log(null &gt; 0) // false console.log(null &lt; 0) // false They all output false!
+1console.log(null &gt; -1) //true It produces true, which makes me think null is treated as 0. But when I run:
+1console.log(null == 0) // false 2console.log(null &gt; 0) // false 3console.log(null &lt; 0) // false They all output false!
 I googled a lot and finally found answers in Ecma-262 Specification.
 The comparison x == y, where x and y are values, produces true or false. Such a comparison is performed as follows:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://walves69.github.io/blogdown-exemplo/posts/2019-03-28-javascript-comparison/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://walves.blog.br/posts/2019-03-28-javascript-comparison/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2019-03-28T09:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2019-03-28T09:00:00&#43;00:00" />
 
@@ -23,8 +28,8 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="JavaScript Comparison operation at a glance"/>
 <meta name="twitter:description" content="When given a scenario like:
-console.log(null &gt; -1) //true It produces true, which makes me think null is treated as 0. But when I run:
-console.log(null == 0) // false console.log(null &gt; 0) // false console.log(null &lt; 0) // false They all output false!
+1console.log(null &gt; -1) //true It produces true, which makes me think null is treated as 0. But when I run:
+1console.log(null == 0) // false 2console.log(null &gt; 0) // false 3console.log(null &lt; 0) // false They all output false!
 I googled a lot and finally found answers in Ecma-262 Specification.
 The comparison x == y, where x and y are values, produces true or false. Such a comparison is performed as follows:"/>
 
@@ -33,7 +38,8 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
     
   
   
-  <link rel="stylesheet" href="https://walves69.github.io/blogdown-exemplo/css/style-white.css">
+  <link rel="stylesheet" href="http://walves.blog.br/css/styles.94f653e9e151e28067a7c5dbbc4600cbd5a3c721e79faaf971e523c40f3b249b8e4f20bb57810dfffa8d559ca5c140fd56eb4cd9c0853113ad08e66afdb08bdd.css" integrity="sha512-lPZT6eFR4oBnp8XbvEYAy9WjxyHnn6r5ceUjxA87JJuOTyC7V4EN//qNVZylwUD9VutM2cCFMROtCOZq/bCL3Q=="> 
+
   
   
   
@@ -44,7 +50,7 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
   
 
   
-<link rel="icon" type="image/png" href="https://walves69.github.io/blogdown-exemplo/images/favicon.ico" />
+<link rel="icon" type="image/png" href="http://walves.blog.br/images/favicon.ico" />
 
   
   
@@ -58,18 +64,18 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
   <div id="header-post">
   <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
   <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
   <span id="menu">
     <span id="nav">
       <ul>
          
-        <li><a href="/blogdown-exemplo/">Home</a></li>
+        <li><a href="/">Início</a></li>
          
-        <li><a href="/blogdown-exemplo/posts">Writings</a></li>
+        <li><a href="/posts">Blog</a></li>
          
-        <li><a href="/blogdown-exemplo/tags">Tags</a></li>
+        <li><a href="/tags">Tags</a></li>
          
-        <li><a href="/blogdown-exemplo/about">About</a></li>
+        <li><a href="/about">Sobre</a></li>
         
       </ul>
     </span>
@@ -78,25 +84,25 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
       <ul>
         
         <li>
-          <a class="icon" href=" https://walves69.github.io/blogdown-exemplo/posts/2019-03-22-js-tips/">
+          <a class="icon" href=" http://walves.blog.br/posts/2019-03-22-js-tips/" aria-label="Previous">
             <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
           </a>
         </li>
         
         
         <li>
-          <a class="icon" href="https://walves69.github.io/blogdown-exemplo/posts/2019-10-27-uipath/">
+          <a class="icon" href="http://walves.blog.br/posts/2019-10-27-uipath/" aria-label="Next">
             <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
           </a>
         </li>
         
         <li>
-          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
             <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
           </a>
         </li>
         <li>
-          <a class="icon" href="#">
+          <a class="icon" href="#" aria-label="Share">
             <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
           </a>
         </li>
@@ -116,57 +122,47 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
   
   
   <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f">
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f" aria-label="Facebook">
       <i class="fab fa-facebook " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&text=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="https://twitter.com/share?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&text=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Twitter">
       <i class="fab fa-twitter " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Linkedin">
       <i class="fab fa-linkedin " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&is_video=false&description=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&is_video=false&description=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Pinterest">
       <i class="fab fa-pinterest " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=JavaScript%20Comparison%20operation%20at%20a%20glance&body=Check out this article: https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f">
+    <a class="icon" href="mailto:?subject=JavaScript%20Comparison%20operation%20at%20a%20glance&body=Check out this article: http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f" aria-label="Email">
       <i class="fas fa-envelope " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Pocket">
       <i class="fab fa-get-pocket " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="reddit">
       <i class="fab fa-reddit " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
-      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
-      <i class="fab fa-digg " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&name=JavaScript%20Comparison%20operation%20at%20a%20glance&description=When%20given%20a%20scenario%20like%3a%0aconsole.log%28null%20%26gt%3b%20-1%29%20%2f%2ftrue%20It%20produces%20true%2c%20which%20makes%20me%20think%20null%20is%20treated%20as%200.%20But%20when%20I%20run%3a%0aconsole.log%28null%20%3d%3d%200%29%20%2f%2f%20false%20console.log%28null%20%26gt%3b%200%29%20%2f%2f%20false%20console.log%28null%20%26lt%3b%200%29%20%2f%2f%20false%20They%20all%20output%20false%21%0aI%20googled%20a%20lot%20and%20finally%20found%20answers%20in%20Ecma-262%20Specification.%0aThe%20comparison%20x%20%3d%3d%20y%2c%20where%20x%20and%20y%20are%20values%2c%20produces%20true%20or%20false.%20Such%20a%20comparison%20is%20performed%20as%20follows%3a">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&name=JavaScript%20Comparison%20operation%20at%20a%20glance&description=When%20given%20a%20scenario%20like%3a%0a1console.log%28null%20%26gt%3b%20-1%29%20%2f%2ftrue%20It%20produces%20true%2c%20which%20makes%20me%20think%20null%20is%20treated%20as%200.%20But%20when%20I%20run%3a%0a1console.log%28null%20%3d%3d%200%29%20%2f%2f%20false%202console.log%28null%20%26gt%3b%200%29%20%2f%2f%20false%203console.log%28null%20%26lt%3b%200%29%20%2f%2f%20false%20They%20all%20output%20false%21%0aI%20googled%20a%20lot%20and%20finally%20found%20answers%20in%20Ecma-262%20Specification.%0aThe%20comparison%20x%20%3d%3d%20y%2c%20where%20x%20and%20y%20are%20values%2c%20produces%20true%20or%20false.%20Such%20a%20comparison%20is%20performed%20as%20follows%3a" aria-label="Tumblr">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&t=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&t=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Hacker News">
       <i class="fab fa-hacker-news " aria-hidden="true"></i>
     </a>
   </li>
@@ -198,11 +194,19 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
         </div>
         
         
+        <div class="article-read-time">
+          <i class="far fa-clock"></i>
+          
+          1 minute read
+        </div>
+        
+        
+        
         <div class="article-tag">
             <i class="fas fa-tag"></i>
             
             
-            <a class="tag-link" href="/blogdown-exemplo/tags/javascript" rel="tag">JavaScript</a>
+            <a class="tag-link" href="/tags/javascript" rel="tag">JavaScript</a>
             
         </div>
         
@@ -212,25 +216,25 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
   
     <div class="content" itemprop="articleBody">
       <p>When given a scenario like:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#66d9ef">null</span> <span style="color:#f92672">&gt;</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#75715e">//true
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span>console.log(<span style="color:#ff79c6">null</span> <span style="color:#ff79c6">&gt;</span> <span style="color:#ff79c6">-</span><span style="color:#bd93f9">1</span>) <span style="color:#6272a4">//true
 </span></code></pre></div><p>It produces <code>true</code>, which makes me think <code>null</code> is treated as <code>0</code>. But when I run:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#66d9ef">null</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) <span style="color:#75715e">// false
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#66d9ef">null</span> <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) <span style="color:#75715e">// false
-</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#66d9ef">null</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>) <span style="color:#75715e">// false
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span>console.log(<span style="color:#ff79c6">null</span> <span style="color:#ff79c6">==</span> <span style="color:#bd93f9">0</span>) <span style="color:#6272a4">// false
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span style="color:#6272a4"></span>console.log(<span style="color:#ff79c6">null</span> <span style="color:#ff79c6">&gt;</span> <span style="color:#bd93f9">0</span>) <span style="color:#6272a4">// false
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span style="color:#6272a4"></span>console.log(<span style="color:#ff79c6">null</span> <span style="color:#ff79c6">&lt;</span> <span style="color:#bd93f9">0</span>) <span style="color:#6272a4">// false
 </span></code></pre></div><p>They all output <code>false</code>!</p>
 <p>I googled a lot and finally found answers in <a href="http://www.ecma-international.org/ecma-262/8.0/#sec-abstract-equality-comparison">Ecma-262 Specification</a>.</p>
 <p>The comparison <code>x == y</code>, where x and y are values, produces true or false. Such a comparison is performed as follows:</p>
 <!-- raw HTML omitted -->
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">1. If Type(x) is the same as Type(y), then return the result of performing Strict Equality Comparison x === y.
-2. If x is null and y is undefined, return true.
-3. If x is undefined and y is null, return true.
-4. If Type(x) is Number and Type(y) is String, return the result of the comparison x == ToNumber(y).
-5. If Type(x) is String and Type(y) is Number, return the result of the comparison ToNumber(x) == y.
-6. If Type(x) is Boolean, return the result of the comparison ToNumber(x) == y.
-7. If Type(y) is Boolean, return the result of the comparison x == ToNumber(y).
-8. If Type(x) is either String, Number, or Symbol and Type(y) is Object, return the result of the comparison x == ToPrimitive(y).
-9. If Type(x) is Object and Type(y) is either String, Number, or Symbol, return the result of the comparison ToPrimitive(x) == y.
-10. Return false.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span>1. If Type(x) is the same as Type(y), then return the result of performing Strict Equality Comparison x === y.
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span>2. If x is null and y is undefined, return true.
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span>3. If x is undefined and y is null, return true.
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span>4. If Type(x) is Number and Type(y) is String, return the result of the comparison x == ToNumber(y).
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span>5. If Type(x) is String and Type(y) is Number, return the result of the comparison ToNumber(x) == y.
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span>6. If Type(x) is Boolean, return the result of the comparison ToNumber(x) == y.
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span>7. If Type(y) is Boolean, return the result of the comparison x == ToNumber(y).
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span>8. If Type(x) is either String, Number, or Symbol and Type(y) is Object, return the result of the comparison x == ToPrimitive(y).
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span>9. If Type(x) is Object and Type(y) is either String, Number, or Symbol, return the result of the comparison ToPrimitive(x) == y.
+<span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span>10. Return false.
 </code></pre></div><p>Relational comparison is much more complex so I&rsquo;m not copying that section. Read at the <a href="http://www.ecma-international.org/ecma-262/8.0/#sec-abstract-relational-comparison">spec website</a>.</p>
 <h2 id="tldr">TL;DR</h2>
 <p>Anyway it seems that in <code>null == 0</code>, <code>null</code> is treated just as is, and <strong>equality</strong> comparison between <code>null</code> and <code>Number</code> always return <strong>false</strong> (No 10).
@@ -258,13 +262,13 @@ But when it comes <code>null &gt; -1</code>, <code>null</code> is conversed to 0
     <div id="nav-footer" style="display: none">
       <ul>
          
-          <li><a href="/blogdown-exemplo/">Home</a></li>
+          <li><a href="/">Início</a></li>
          
-          <li><a href="/blogdown-exemplo/posts">Writings</a></li>
+          <li><a href="/posts">Blog</a></li>
          
-          <li><a href="/blogdown-exemplo/tags">Tags</a></li>
+          <li><a href="/tags">Tags</a></li>
          
-          <li><a href="/blogdown-exemplo/about">About</a></li>
+          <li><a href="/about">Sobre</a></li>
         
       </ul>
     </div>
@@ -286,57 +290,47 @@ But when it comes <code>null &gt; -1</code>, <code>null</code> is conversed to 0
   
   
   <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f">
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f" aria-label="Facebook">
       <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&text=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="https://twitter.com/share?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&text=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Twitter">
       <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Linkedin">
       <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&is_video=false&description=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&is_video=false&description=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Pinterest">
       <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=JavaScript%20Comparison%20operation%20at%20a%20glance&body=Check out this article: https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f">
+    <a class="icon" href="mailto:?subject=JavaScript%20Comparison%20operation%20at%20a%20glance&body=Check out this article: http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f" aria-label="Email">
       <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Pocket">
       <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="reddit">
       <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
-      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&title=JavaScript%20Comparison%20operation%20at%20a%20glance">
-      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&name=JavaScript%20Comparison%20operation%20at%20a%20glance&description=When%20given%20a%20scenario%20like%3a%0aconsole.log%28null%20%26gt%3b%20-1%29%20%2f%2ftrue%20It%20produces%20true%2c%20which%20makes%20me%20think%20null%20is%20treated%20as%200.%20But%20when%20I%20run%3a%0aconsole.log%28null%20%3d%3d%200%29%20%2f%2f%20false%20console.log%28null%20%26gt%3b%200%29%20%2f%2f%20false%20console.log%28null%20%26lt%3b%200%29%20%2f%2f%20false%20They%20all%20output%20false%21%0aI%20googled%20a%20lot%20and%20finally%20found%20answers%20in%20Ecma-262%20Specification.%0aThe%20comparison%20x%20%3d%3d%20y%2c%20where%20x%20and%20y%20are%20values%2c%20produces%20true%20or%20false.%20Such%20a%20comparison%20is%20performed%20as%20follows%3a">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&name=JavaScript%20Comparison%20operation%20at%20a%20glance&description=When%20given%20a%20scenario%20like%3a%0a1console.log%28null%20%26gt%3b%20-1%29%20%2f%2ftrue%20It%20produces%20true%2c%20which%20makes%20me%20think%20null%20is%20treated%20as%200.%20But%20when%20I%20run%3a%0a1console.log%28null%20%3d%3d%200%29%20%2f%2f%20false%202console.log%28null%20%26gt%3b%200%29%20%2f%2f%20false%203console.log%28null%20%26lt%3b%200%29%20%2f%2f%20false%20They%20all%20output%20false%21%0aI%20googled%20a%20lot%20and%20finally%20found%20answers%20in%20Ecma-262%20Specification.%0aThe%20comparison%20x%20%3d%3d%20y%2c%20where%20x%20and%20y%20are%20values%2c%20produces%20true%20or%20false.%20Such%20a%20comparison%20is%20performed%20as%20follows%3a" aria-label="Tumblr">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2019-03-28-javascript-comparison%2f&t=JavaScript%20Comparison%20operation%20at%20a%20glance">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2fwalves.blog.br%2fposts%2f2019-03-28-javascript-comparison%2f&t=JavaScript%20Comparison%20operation%20at%20a%20glance" aria-label="Hacker News">
       <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
     </a>
   </li>
@@ -346,13 +340,13 @@ But when it comes <code>null &gt; -1</code>, <code>null</code> is conversed to 0
 
     <div id="actions-footer">
       
-        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
           <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
           <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
           <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
-        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
           <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
     </div>
 
@@ -368,13 +362,13 @@ But when it comes <code>null &gt; -1</code>, <code>null</code> is conversed to 0
     <nav>
       <ul>
          
-        <li><a href="/blogdown-exemplo/">Home</a></li>
+        <li><a href="/">Início</a></li>
          
-        <li><a href="/blogdown-exemplo/posts">Writings</a></li>
+        <li><a href="/posts">Blog</a></li>
          
-        <li><a href="/blogdown-exemplo/tags">Tags</a></li>
+        <li><a href="/tags">Tags</a></li>
          
-        <li><a href="/blogdown-exemplo/about">About</a></li>
+        <li><a href="/about">Sobre</a></li>
         
       </ul>
     </nav>
@@ -385,9 +379,10 @@ But when it comes <code>null &gt; -1</code>, <code>null</code> is conversed to 0
   </div>
 </body>
 
-<link rel="stylesheet" href=/blogdown-exemplo/lib/font-awesome/css/all.min.css>
-<script src=/blogdown-exemplo/lib/jquery/jquery.min.js></script>
-<script src=/blogdown-exemplo/js/main.js></script>
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+<script src=/js/code-copy.js></script>
 
 
 

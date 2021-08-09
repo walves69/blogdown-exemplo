@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> 幸せ | Cactus theme example</title>
-  <meta name="description" content="Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.">
+  <title> 幸せ | Wllyssys Alves</title>
+  <link rel = 'canonical' href = 'http://walves.blog.br/posts/2016-10-22-z/'>
+  <meta name="description" content="Trabalhando no Banco do Brasil e estudando Ciência de Dados. Este local surgiu inspirado nas ideias da comunidade [IndieWeb](https://indieweb.org/) e [Digital Garden](https://maggieappleton.com/garden-history/).">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
@@ -34,7 +39,7 @@ And it was all Yellow
 噢这过程充满不安羞怯和点滴暖意
 Your skin" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://walves69.github.io/blogdown-exemplo/posts/2016-10-22-z/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="http://walves.blog.br/posts/2016-10-22-z/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2016-10-22T16:56:54&#43;00:00" />
 <meta property="article:modified_time" content="2016-10-22T16:56:54&#43;00:00" />
 
@@ -71,7 +76,8 @@ Your skin"/>
     
   
   
-  <link rel="stylesheet" href="https://walves69.github.io/blogdown-exemplo/css/style-white.css">
+  <link rel="stylesheet" href="http://walves.blog.br/css/styles.94f653e9e151e28067a7c5dbbc4600cbd5a3c721e79faaf971e523c40f3b249b8e4f20bb57810dfffa8d559ca5c140fd56eb4cd9c0853113ad08e66afdb08bdd.css" integrity="sha512-lPZT6eFR4oBnp8XbvEYAy9WjxyHnn6r5ceUjxA87JJuOTyC7V4EN//qNVZylwUD9VutM2cCFMROtCOZq/bCL3Q=="> 
+
   
   
   
@@ -82,7 +88,7 @@ Your skin"/>
   
 
   
-<link rel="icon" type="image/png" href="https://walves69.github.io/blogdown-exemplo/images/favicon.ico" />
+<link rel="icon" type="image/png" href="http://walves.blog.br/images/favicon.ico" />
 
   
   
@@ -96,18 +102,18 @@ Your skin"/>
   <div id="header-post">
   <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
   <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
-  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;" aria-label="Top of Page"><i class="fas fa-chevron-up fa-lg"></i></a>
   <span id="menu">
     <span id="nav">
       <ul>
          
-        <li><a href="/blogdown-exemplo/">Home</a></li>
+        <li><a href="/">Início</a></li>
          
-        <li><a href="/blogdown-exemplo/posts">Writings</a></li>
+        <li><a href="/posts">Blog</a></li>
          
-        <li><a href="/blogdown-exemplo/tags">Tags</a></li>
+        <li><a href="/tags">Tags</a></li>
          
-        <li><a href="/blogdown-exemplo/about">About</a></li>
+        <li><a href="/about">Sobre</a></li>
         
       </ul>
     </span>
@@ -116,25 +122,25 @@ Your skin"/>
       <ul>
         
         <li>
-          <a class="icon" href=" https://walves69.github.io/blogdown-exemplo/about/">
+          <a class="icon" href=" http://walves.blog.br/about/" aria-label="Previous">
             <i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i>
           </a>
         </li>
         
         
         <li>
-          <a class="icon" href="https://walves69.github.io/blogdown-exemplo/posts/2016-11-05-php-composer-autoload/">
+          <a class="icon" href="http://walves.blog.br/posts/2016-11-05-php-composer-autoload/" aria-label="Next">
             <i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i>
           </a>
         </li>
         
         <li>
-          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+          <a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
             <i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i>
           </a>
         </li>
         <li>
-          <a class="icon" href="#">
+          <a class="icon" href="#" aria-label="Share">
             <i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i>
           </a>
         </li>
@@ -154,57 +160,47 @@ Your skin"/>
   
   
   <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f">
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f" aria-label="Facebook">
       <i class="fab fa-facebook " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&text=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="https://twitter.com/share?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&text=%e5%b9%b8%e3%81%9b" aria-label="Twitter">
       <i class="fab fa-twitter " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b" aria-label="Linkedin">
       <i class="fab fa-linkedin " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&is_video=false&description=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&is_video=false&description=%e5%b9%b8%e3%81%9b" aria-label="Pinterest">
       <i class="fab fa-pinterest " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=%e5%b9%b8%e3%81%9b&body=Check out this article: https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f">
+    <a class="icon" href="mailto:?subject=%e5%b9%b8%e3%81%9b&body=Check out this article: http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f" aria-label="Email">
       <i class="fas fa-envelope " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b" aria-label="Pocket">
       <i class="fab fa-get-pocket " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b" aria-label="reddit">
       <i class="fab fa-reddit " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
-      <i class="fab fa-stumbleupon " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
-      <i class="fab fa-digg " aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&name=%e5%b9%b8%e3%81%9b&description=%3a-%29%0aLook%20at%20the%20stars%0a%e6%8a%ac%e5%a4%b4%e4%bb%b0%e6%9c%9b%e6%bb%a1%e5%a4%a9%e7%b9%81%e6%98%9f%0aLook%20how%20they%20shine%20for%20you%0a%e7%9c%8b%e5%ae%83%e4%bb%ac%e4%b8%ba%e4%bd%a0%e7%bb%bd%e6%94%be%e7%9d%80%20%e9%97%aa%e7%83%81%e4%b8%8d%e6%81%af%0aAnd%20everything%20you%20do%0a%e8%80%8c%e4%bd%a0%e7%9a%84%e4%b8%80%e9%a2%a6%e4%b8%80%e4%b8%be%0aYeah%27%20they%20were%20all%20Yellow%0a%e5%8d%b4%e6%bb%a1%e5%90%ab%e8%83%86%e6%80%af%e5%92%8c%e7%be%9e%e6%84%8f%0aI%20came%20along%0a%e6%88%91%e8%bf%bd%e9%9a%8f%e7%9d%80%e4%bd%a0%e7%9a%84%e6%b0%94%e6%81%af%0aI%20wrote%20a%20song%20for%20you%0a%e4%b8%ba%e4%bd%a0%e5%86%99%e4%b8%8b%e4%b8%80%e9%a6%96%e6%ad%8c%e6%9b%b2%0aAnd%20all%20the%20things%20you%20do%0a%e5%9b%9e%e6%83%b3%e7%9d%80%e4%bd%a0%e7%9a%84%e6%89%80%e6%9c%89%e4%b8%be%e5%8a%a8%e5%92%8c%e7%ac%91%e6%84%8f%0ait%20was%20called%20Yellow%0a%e5%b9%b6%e7%94%a8Yellow%e4%b8%ba%e8%bf%99%e9%a6%96%e6%ad%8c%e5%91%bd%e5%90%8d%0aSo%20then%20I%20took%20my%20turn%0a%e6%88%91%e8%80%97%e5%b0%bd%e5%bf%83%e5%8a%9b%0aOh%20what%20a%20thing%20to%20have%20done%0a%e7%94%a8%e8%a1%8c%e5%8a%a8%e8%a1%a8%e8%be%be%e6%88%91%e7%9a%84%e7%88%b1%e6%84%8f%0aAnd%20it%20was%20all%20Yellow%0a%e5%99%a2%e8%bf%99%e8%bf%87%e7%a8%8b%e5%85%85%e6%bb%a1%e4%b8%8d%e5%ae%89%e7%be%9e%e6%80%af%e5%92%8c%e7%82%b9%e6%bb%b4%e6%9a%96%e6%84%8f%0aYour%20skin">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&name=%e5%b9%b8%e3%81%9b&description=%3a-%29%0aLook%20at%20the%20stars%0a%e6%8a%ac%e5%a4%b4%e4%bb%b0%e6%9c%9b%e6%bb%a1%e5%a4%a9%e7%b9%81%e6%98%9f%0aLook%20how%20they%20shine%20for%20you%0a%e7%9c%8b%e5%ae%83%e4%bb%ac%e4%b8%ba%e4%bd%a0%e7%bb%bd%e6%94%be%e7%9d%80%20%e9%97%aa%e7%83%81%e4%b8%8d%e6%81%af%0aAnd%20everything%20you%20do%0a%e8%80%8c%e4%bd%a0%e7%9a%84%e4%b8%80%e9%a2%a6%e4%b8%80%e4%b8%be%0aYeah%27%20they%20were%20all%20Yellow%0a%e5%8d%b4%e6%bb%a1%e5%90%ab%e8%83%86%e6%80%af%e5%92%8c%e7%be%9e%e6%84%8f%0aI%20came%20along%0a%e6%88%91%e8%bf%bd%e9%9a%8f%e7%9d%80%e4%bd%a0%e7%9a%84%e6%b0%94%e6%81%af%0aI%20wrote%20a%20song%20for%20you%0a%e4%b8%ba%e4%bd%a0%e5%86%99%e4%b8%8b%e4%b8%80%e9%a6%96%e6%ad%8c%e6%9b%b2%0aAnd%20all%20the%20things%20you%20do%0a%e5%9b%9e%e6%83%b3%e7%9d%80%e4%bd%a0%e7%9a%84%e6%89%80%e6%9c%89%e4%b8%be%e5%8a%a8%e5%92%8c%e7%ac%91%e6%84%8f%0ait%20was%20called%20Yellow%0a%e5%b9%b6%e7%94%a8Yellow%e4%b8%ba%e8%bf%99%e9%a6%96%e6%ad%8c%e5%91%bd%e5%90%8d%0aSo%20then%20I%20took%20my%20turn%0a%e6%88%91%e8%80%97%e5%b0%bd%e5%bf%83%e5%8a%9b%0aOh%20what%20a%20thing%20to%20have%20done%0a%e7%94%a8%e8%a1%8c%e5%8a%a8%e8%a1%a8%e8%be%be%e6%88%91%e7%9a%84%e7%88%b1%e6%84%8f%0aAnd%20it%20was%20all%20Yellow%0a%e5%99%a2%e8%bf%99%e8%bf%87%e7%a8%8b%e5%85%85%e6%bb%a1%e4%b8%8d%e5%ae%89%e7%be%9e%e6%80%af%e5%92%8c%e7%82%b9%e6%bb%b4%e6%9a%96%e6%84%8f%0aYour%20skin" aria-label="Tumblr">
       <i class="fab fa-tumblr " aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&t=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&t=%e5%b9%b8%e3%81%9b" aria-label="Hacker News">
       <i class="fab fa-hacker-news " aria-hidden="true"></i>
     </a>
   </li>
@@ -230,6 +226,14 @@ Your skin"/>
           <time datetime="2016-10-22 16:56:54 &#43;0000 UTC" itemprop="datePublished">2016-10-22</time>
           
         </div>
+        
+        
+        <div class="article-read-time">
+          <i class="far fa-clock"></i>
+          
+          3 minute read
+        </div>
+        
         
         
       </div>
@@ -335,13 +339,13 @@ Your skin"/>
     <div id="nav-footer" style="display: none">
       <ul>
          
-          <li><a href="/blogdown-exemplo/">Home</a></li>
+          <li><a href="/">Início</a></li>
          
-          <li><a href="/blogdown-exemplo/posts">Writings</a></li>
+          <li><a href="/posts">Blog</a></li>
          
-          <li><a href="/blogdown-exemplo/tags">Tags</a></li>
+          <li><a href="/tags">Tags</a></li>
          
-          <li><a href="/blogdown-exemplo/about">About</a></li>
+          <li><a href="/about">Sobre</a></li>
         
       </ul>
     </div>
@@ -359,57 +363,47 @@ Your skin"/>
   
   
   <li>
-    <a class="icon" href="http://www.facebook.com/sharer.php?u=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f">
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f" aria-label="Facebook">
       <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://twitter.com/share?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&text=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="https://twitter.com/share?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&text=%e5%b9%b8%e3%81%9b" aria-label="Twitter">
       <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.linkedin.com/shareArticle?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b" aria-label="Linkedin">
       <i class="fab fa-linkedin fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&is_video=false&description=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&is_video=false&description=%e5%b9%b8%e3%81%9b" aria-label="Pinterest">
       <i class="fab fa-pinterest fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="mailto:?subject=%e5%b9%b8%e3%81%9b&body=Check out this article: https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f">
+    <a class="icon" href="mailto:?subject=%e5%b9%b8%e3%81%9b&body=Check out this article: http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f" aria-label="Email">
       <i class="fas fa-envelope fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://getpocket.com/save?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="https://getpocket.com/save?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b" aria-label="Pocket">
       <i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://reddit.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="http://reddit.com/submit?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b" aria-label="reddit">
       <i class="fab fa-reddit fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="http://www.stumbleupon.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
-      <i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://digg.com/submit?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&title=%e5%b9%b8%e3%81%9b">
-      <i class="fab fa-digg fa-lg" aria-hidden="true"></i>
-    </a>
-  </li>
-  <li>
-    <a class="icon" href="http://www.tumblr.com/share/link?url=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&name=%e5%b9%b8%e3%81%9b&description=%3a-%29%0aLook%20at%20the%20stars%0a%e6%8a%ac%e5%a4%b4%e4%bb%b0%e6%9c%9b%e6%bb%a1%e5%a4%a9%e7%b9%81%e6%98%9f%0aLook%20how%20they%20shine%20for%20you%0a%e7%9c%8b%e5%ae%83%e4%bb%ac%e4%b8%ba%e4%bd%a0%e7%bb%bd%e6%94%be%e7%9d%80%20%e9%97%aa%e7%83%81%e4%b8%8d%e6%81%af%0aAnd%20everything%20you%20do%0a%e8%80%8c%e4%bd%a0%e7%9a%84%e4%b8%80%e9%a2%a6%e4%b8%80%e4%b8%be%0aYeah%27%20they%20were%20all%20Yellow%0a%e5%8d%b4%e6%bb%a1%e5%90%ab%e8%83%86%e6%80%af%e5%92%8c%e7%be%9e%e6%84%8f%0aI%20came%20along%0a%e6%88%91%e8%bf%bd%e9%9a%8f%e7%9d%80%e4%bd%a0%e7%9a%84%e6%b0%94%e6%81%af%0aI%20wrote%20a%20song%20for%20you%0a%e4%b8%ba%e4%bd%a0%e5%86%99%e4%b8%8b%e4%b8%80%e9%a6%96%e6%ad%8c%e6%9b%b2%0aAnd%20all%20the%20things%20you%20do%0a%e5%9b%9e%e6%83%b3%e7%9d%80%e4%bd%a0%e7%9a%84%e6%89%80%e6%9c%89%e4%b8%be%e5%8a%a8%e5%92%8c%e7%ac%91%e6%84%8f%0ait%20was%20called%20Yellow%0a%e5%b9%b6%e7%94%a8Yellow%e4%b8%ba%e8%bf%99%e9%a6%96%e6%ad%8c%e5%91%bd%e5%90%8d%0aSo%20then%20I%20took%20my%20turn%0a%e6%88%91%e8%80%97%e5%b0%bd%e5%bf%83%e5%8a%9b%0aOh%20what%20a%20thing%20to%20have%20done%0a%e7%94%a8%e8%a1%8c%e5%8a%a8%e8%a1%a8%e8%be%be%e6%88%91%e7%9a%84%e7%88%b1%e6%84%8f%0aAnd%20it%20was%20all%20Yellow%0a%e5%99%a2%e8%bf%99%e8%bf%87%e7%a8%8b%e5%85%85%e6%bb%a1%e4%b8%8d%e5%ae%89%e7%be%9e%e6%80%af%e5%92%8c%e7%82%b9%e6%bb%b4%e6%9a%96%e6%84%8f%0aYour%20skin">
+    <a class="icon" href="http://www.tumblr.com/share/link?url=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&name=%e5%b9%b8%e3%81%9b&description=%3a-%29%0aLook%20at%20the%20stars%0a%e6%8a%ac%e5%a4%b4%e4%bb%b0%e6%9c%9b%e6%bb%a1%e5%a4%a9%e7%b9%81%e6%98%9f%0aLook%20how%20they%20shine%20for%20you%0a%e7%9c%8b%e5%ae%83%e4%bb%ac%e4%b8%ba%e4%bd%a0%e7%bb%bd%e6%94%be%e7%9d%80%20%e9%97%aa%e7%83%81%e4%b8%8d%e6%81%af%0aAnd%20everything%20you%20do%0a%e8%80%8c%e4%bd%a0%e7%9a%84%e4%b8%80%e9%a2%a6%e4%b8%80%e4%b8%be%0aYeah%27%20they%20were%20all%20Yellow%0a%e5%8d%b4%e6%bb%a1%e5%90%ab%e8%83%86%e6%80%af%e5%92%8c%e7%be%9e%e6%84%8f%0aI%20came%20along%0a%e6%88%91%e8%bf%bd%e9%9a%8f%e7%9d%80%e4%bd%a0%e7%9a%84%e6%b0%94%e6%81%af%0aI%20wrote%20a%20song%20for%20you%0a%e4%b8%ba%e4%bd%a0%e5%86%99%e4%b8%8b%e4%b8%80%e9%a6%96%e6%ad%8c%e6%9b%b2%0aAnd%20all%20the%20things%20you%20do%0a%e5%9b%9e%e6%83%b3%e7%9d%80%e4%bd%a0%e7%9a%84%e6%89%80%e6%9c%89%e4%b8%be%e5%8a%a8%e5%92%8c%e7%ac%91%e6%84%8f%0ait%20was%20called%20Yellow%0a%e5%b9%b6%e7%94%a8Yellow%e4%b8%ba%e8%bf%99%e9%a6%96%e6%ad%8c%e5%91%bd%e5%90%8d%0aSo%20then%20I%20took%20my%20turn%0a%e6%88%91%e8%80%97%e5%b0%bd%e5%bf%83%e5%8a%9b%0aOh%20what%20a%20thing%20to%20have%20done%0a%e7%94%a8%e8%a1%8c%e5%8a%a8%e8%a1%a8%e8%be%be%e6%88%91%e7%9a%84%e7%88%b1%e6%84%8f%0aAnd%20it%20was%20all%20Yellow%0a%e5%99%a2%e8%bf%99%e8%bf%87%e7%a8%8b%e5%85%85%e6%bb%a1%e4%b8%8d%e5%ae%89%e7%be%9e%e6%80%af%e5%92%8c%e7%82%b9%e6%bb%b4%e6%9a%96%e6%84%8f%0aYour%20skin" aria-label="Tumblr">
       <i class="fab fa-tumblr fa-lg" aria-hidden="true"></i>
     </a>
   </li>
   <li>
-    <a class="icon" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwalves69.github.io%2fblogdown-exemplo%2fposts%2f2016-10-22-z%2f&t=%e5%b9%b8%e3%81%9b">
+    <a class="icon" href="https://news.ycombinator.com/submitlink?u=http%3a%2f%2fwalves.blog.br%2fposts%2f2016-10-22-z%2f&t=%e5%b9%b8%e3%81%9b" aria-label="Hacker News">
       <i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i>
     </a>
   </li>
@@ -419,13 +413,13 @@ Your skin"/>
 
     <div id="actions-footer">
       
-        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;">
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
           <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
-        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;">
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
           <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
-        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;">
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
           <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
-        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');">
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
           <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
     </div>
 
@@ -441,13 +435,13 @@ Your skin"/>
     <nav>
       <ul>
          
-        <li><a href="/blogdown-exemplo/">Home</a></li>
+        <li><a href="/">Início</a></li>
          
-        <li><a href="/blogdown-exemplo/posts">Writings</a></li>
+        <li><a href="/posts">Blog</a></li>
          
-        <li><a href="/blogdown-exemplo/tags">Tags</a></li>
+        <li><a href="/tags">Tags</a></li>
          
-        <li><a href="/blogdown-exemplo/about">About</a></li>
+        <li><a href="/about">Sobre</a></li>
         
       </ul>
     </nav>
@@ -458,9 +452,10 @@ Your skin"/>
   </div>
 </body>
 
-<link rel="stylesheet" href=/blogdown-exemplo/lib/font-awesome/css/all.min.css>
-<script src=/blogdown-exemplo/lib/jquery/jquery.min.js></script>
-<script src=/blogdown-exemplo/js/main.js></script>
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+<script src=/js/code-copy.js></script>
 
 
 
