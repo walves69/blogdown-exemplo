@@ -1,4 +1,4 @@
-baseURL = "https://walves69.github.io/blogdown-exemplo/"
+baseURL = "http://walves.blog.br/"
 languageCode = "pt-br"
 title = "Wllyssys Alves"
 theme = "cactus"
