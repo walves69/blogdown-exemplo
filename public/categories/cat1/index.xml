@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cat1 on Wllyssys Alves</title>
+    <link>https://walves69.github.io/blogdown-exemplo/categories/cat1/</link>
+    <description>Recent content in cat1 on Wllyssys Alves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>You</copyright>
+    <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://walves69.github.io/blogdown-exemplo/categories/cat1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>teste2</title>
+      <link>https://walves69.github.io/blogdown-exemplo/post/2021-03-27-teste2/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/post/2021-03-27-teste2/</guid>
+      <description>Teste 2</description>
+    </item>
+    
+    <item>
+      <title>teste3</title>
+      <link>https://walves69.github.io/blogdown-exemplo/post/2021-03-27-teste3/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/post/2021-03-27-teste3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teste5</title>
+      <link>https://walves69.github.io/blogdown-exemplo/posts/2021-03-27-teste5/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/posts/2021-03-27-teste5/</guid>
+      <description>asdjhgasdgjahgsd</description>
+    </item>
+    
+  </channel>
+</rss>

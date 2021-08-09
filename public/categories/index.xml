@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Wllyssys Alves</title>
+    <link>https://walves69.github.io/blogdown-exemplo/categories/</link>
+    <description>Recent content in Categories on Wllyssys Alves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>You</copyright>
+    <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://walves69.github.io/blogdown-exemplo/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cat1</title>
+      <link>https://walves69.github.io/blogdown-exemplo/categories/cat1/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/categories/cat1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cat2</title>
+      <link>https://walves69.github.io/blogdown-exemplo/categories/cat2/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/categories/cat2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://walves69.github.io/blogdown-exemplo/categories/r/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>notes</title>
+      <link>https://walves69.github.io/blogdown-exemplo/categories/notes/</link>
+      <pubDate>Sat, 06 Jun 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/categories/notes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life</title>
+      <link>https://walves69.github.io/blogdown-exemplo/categories/life/</link>
+      <pubDate>Sat, 22 Oct 2016 16:56:54 +0000</pubDate>
+      
+      <guid>https://walves69.github.io/blogdown-exemplo/categories/life/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
