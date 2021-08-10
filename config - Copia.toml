@@ -9,7 +9,6 @@ disqusShortname = "example" # Used when comments is enabled. Cactus will use sit
 publishDir = "docs"
 
 
-
 # summaryLength = 2
 
 # Main menu which appears below site header.
@@ -24,13 +23,18 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Jardim"
-url = "/jardim"
+name = "Tags"
+url = "/tags"
 weight = 3
+
+[[menu.main]]
+name = "Sobre"
+url = "/about"
+weight = 4
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 3
+    endLevel = 4
     ordered = false
     startLevel = 2
   [markup.highlight]
@@ -83,4 +87,3 @@ weight = 3
   [[params.social]]
     name = "email"
     link = "example@example.com"  # no need for "mailto:" in the head
-

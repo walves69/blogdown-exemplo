@@ -6,52 +6,6 @@
     <description>Recent content in Categories on Wllyssys Alves</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <copyright>You</copyright>
-    <lastBuildDate>Sat, 27 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://walves.blog.br/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>cat1</title>
-      <link>http://walves.blog.br/categories/cat1/</link>
-      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://walves.blog.br/categories/cat1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cat2</title>
-      <link>http://walves.blog.br/categories/cat2/</link>
-      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://walves.blog.br/categories/cat2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>http://walves.blog.br/categories/r/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>http://walves.blog.br/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>notes</title>
-      <link>http://walves.blog.br/categories/notes/</link>
-      <pubDate>Sat, 06 Jun 2020 09:00:00 +0000</pubDate>
-      
-      <guid>http://walves.blog.br/categories/notes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>life</title>
-      <link>http://walves.blog.br/categories/life/</link>
-      <pubDate>Sat, 22 Oct 2016 16:56:54 +0000</pubDate>
-      
-      <guid>http://walves.blog.br/categories/life/</guid>
-      <description></description>
-    </item>
-    
+    <copyright>You</copyright><atom:link href="http://walves.blog.br/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

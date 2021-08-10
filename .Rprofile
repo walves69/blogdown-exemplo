@@ -18,7 +18,7 @@ options(
   # build .Rmd to .html (via Pandoc); to build to Markdown, set this option to 'markdown'
   blogdown.method = 'html',
 
-  blogdown.subdir = 'posts'
+  #blogdown.subdir = 'posts'
 )
 
 # fix Hugo version

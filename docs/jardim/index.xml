@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wllyssys Alves</title>
-    <link>http://walves.blog.br/</link>
-    <description>Recent content on Wllyssys Alves</description>
+    <title>Jardim on Wllyssys Alves</title>
+    <link>http://walves.blog.br/jardim/</link>
+    <description>Recent content in Jardim on Wllyssys Alves</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>You</copyright>
-    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://walves.blog.br/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://walves.blog.br/jardim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Filmes</title>
       <link>http://walves.blog.br/jardim/filmes/</link>
@@ -19,30 +19,12 @@ Livros</description>
     </item>
     
     <item>
-      <title>Jardim</title>
-      <link>http://walves.blog.br/posts/</link>
-      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://walves.blog.br/posts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Livros</title>
       <link>http://walves.blog.br/jardim/livros/</link>
       <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>http://walves.blog.br/jardim/livros/</guid>
       <description>Livros que vão encontrando e vou tentando ler.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>http://walves.blog.br/about/</link>
-      <pubDate>Wed, 24 Aug 2016 17:51:42 +0000</pubDate>
-      
-      <guid>http://walves.blog.br/about/</guid>
-      <description>Github: monkeyWzr</description>
     </item>
     
   </channel>
