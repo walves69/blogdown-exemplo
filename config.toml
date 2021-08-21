@@ -23,8 +23,8 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "Jardim"
+url = "/jardim"
 weight = 3
 
 [[menu.main]]

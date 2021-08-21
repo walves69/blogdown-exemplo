@@ -8,8 +8,3 @@ publishDate: "2021-08-09"
 Filmes etc etc.
 
 [Livros](/jardim/livros)
-
-
-https://twitter.com/CarolinaMalta/status/1429040822285180928?s=20
-
-{{< tweet 1429040822285180928 >}}

@@ -28,5 +28,15 @@ asdasdasd</description>
 asdasdasd asdasd</description>
     </item>
     
+    <item>
+      <title>Filmes</title>
+      <link>http://walves.blog.br/posts/filmes2/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://walves.blog.br/posts/filmes2/</guid>
+      <description>Filmes etc etc.
+Livros</description>
+    </item>
+    
   </channel>
 </rss>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>Wllyssys Alves</copyright>
-    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://walves.blog.br/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://walves.blog.br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Livros</title>
+      <link>http://walves.blog.br/jardim/livros/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://walves.blog.br/jardim/livros/</guid>
+      <description>Livros que vão encontrando e vou tentando ler.</description>
+    </item>
+    
     <item>
       <title>testando novo post cmd</title>
       <link>http://walves.blog.br/posts/2021-08-18-testando-novo-post-cmd/</link>
@@ -35,16 +44,29 @@ asdasdasd asdasd</description>
       
       <guid>http://walves.blog.br/jardim/filmes/</guid>
       <description>Filmes etc etc.
+Livros
+https://twitter.com/CarolinaMalta/status/1429040822285180928?s=20
+Acordei pic.twitter.com/HtZ2HzKUJE
+&amp;mdash; Carolina Malta (@CarolinaMalta) August 21, 2021  </description>
+    </item>
+    
+    <item>
+      <title>Filmes</title>
+      <link>http://walves.blog.br/posts/filmes2/</link>
+      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://walves.blog.br/posts/filmes2/</guid>
+      <description>Filmes etc etc.
 Livros</description>
     </item>
     
     <item>
-      <title>Livros</title>
-      <link>http://walves.blog.br/jardim/livros/</link>
+      <title>Jardim</title>
+      <link>http://walves.blog.br/jardim/__index/</link>
       <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://walves.blog.br/jardim/livros/</guid>
-      <description>Livros que vão encontrando e vou tentando ler.</description>
+      <guid>http://walves.blog.br/jardim/__index/</guid>
+      <description></description>
     </item>
     
     <item>
