@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>You</copyright>
-    <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://walves.blog.br/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://walves.blog.br/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>testando novo post cmd</title>
+      <link>http://walves.blog.br/posts/2021-08-18-testando-novo-post-cmd/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://walves.blog.br/posts/2021-08-18-testando-novo-post-cmd/</guid>
+      <description>hjgajsdjahsgdjgjasd
+asdasdasd</description>
+    </item>
+    
+    <item>
+      <title>testando novo post cmd2</title>
+      <link>http://walves.blog.br/posts/2021-08-18-testando-novo-post-cmd2/</link>
+      <pubDate>Wed, 18 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://walves.blog.br/posts/2021-08-18-testando-novo-post-cmd2/</guid>
+      <description>asdasdaddsasasdasd asdasd
+asdasdasd asdasd</description>
+    </item>
+    
     <item>
       <title>Filmes</title>
       <link>http://walves.blog.br/jardim/filmes/</link>
@@ -16,15 +36,6 @@
       <guid>http://walves.blog.br/jardim/filmes/</guid>
       <description>Filmes etc etc.
 Livros</description>
-    </item>
-    
-    <item>
-      <title>Jardim</title>
-      <link>http://walves.blog.br/posts/</link>
-      <pubDate>Mon, 09 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>http://walves.blog.br/posts/</guid>
-      <description></description>
     </item>
     
     <item>
