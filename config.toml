@@ -23,18 +23,13 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Jardim"
-url = "/jardim"
+name = "Wiki"
+url = "/wiki"
 weight = 3
-
-[[menu.main]]
-name = "Sobre"
-url = "/about"
-weight = 4
 
 [markup]
   [markup.tableOfContents]
-    endLevel = 4
+    endLevel = 3
     ordered = false
     startLevel = 2
   [markup.highlight]
@@ -70,7 +65,7 @@ weight = 4
 
   # Post page settings
   show_updated = true # default
-  showReadTime = true # default
+  showReadTime = false # default
 
   [params.comments]
     enabled = false # default
@@ -79,11 +74,5 @@ weight = 4
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
   [[params.social]]
-    name = "github"
-    link = "https://github.com/gohugoio"
-  [[params.social]]
-    name = "linkedin"
-    link = "https://www.linkedin.com/company/github/"
-  [[params.social]]
     name = "email"
-    link = "example@example.com"  # no need for "mailto:" in the head
+    link = "ulima69@gmail.com"  # no need for "mailto:" in the head

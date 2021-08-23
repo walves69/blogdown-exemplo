@@ -2,32 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://walves.blog.br/jardim/</loc>
-    <lastmod>2021-08-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://walves.blog.br/jardim/livros/</loc>
+    <loc>http://walves.blog.br/wiki/livros/</loc>
     <lastmod>2021-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://walves.blog.br/</loc>
     <lastmod>2021-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://walves.blog.br/posts/</loc>
-    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://walves.blog.br/posts/2021-08-18-testando-novo-post-cmd/</loc>
-    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
+    <loc>http://walves.blog.br/posts/20210816/</loc>
+    <lastmod>2021-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://walves.blog.br/posts/2021-08-18-testando-novo-post-cmd2/</loc>
-    <lastmod>2021-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://walves.blog.br/jardim/filmes/</loc>
+    <loc>http://walves.blog.br/wiki/filmes/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://walves.blog.br/posts/filmes2/</loc>
+    <loc>http://walves.blog.br/wiki/</loc>
     <lastmod>2021-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://walves.blog.br/jardim/__index/</loc>
-    <lastmod>2021-08-09T00:00:00+00:00</lastmod>
+    <loc>http://walves.blog.br/posts/2021-caixa-de-entrada/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://walves.blog.br/about/</loc>
     <lastmod>2016-08-24T17:51:42+00:00</lastmod>
