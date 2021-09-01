@@ -15,3 +15,6 @@ blogdown::new_post(title = 'testando novo post cmd2')
 blogdown::check_site()
 
 blogdown::new_content(path = "content", open = interactive())
+
+
+blogdown::check_site()
