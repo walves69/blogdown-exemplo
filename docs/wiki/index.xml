@@ -9,6 +9,18 @@
     <copyright>Wllyssys Alves</copyright>
     <lastBuildDate>Mon, 09 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://walves.blog.br/wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Git</title>
+      <link>http://walves.blog.br/wiki/git/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://walves.blog.br/wiki/git/</guid>
+      <description>Git Compilei esse resumão do curso da Alura sobre o Git. No momento ele funciona como um guia de referência sobre os tópicos a serem estudados, mas quero deixar mais ágil. Minha idéia é criar três partes, conceito, miscelânea de códigos e exercícios.
+  https://git-school.github.io/visualizing-git/ - Ferramentas para visualizar os comandos git
+  https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Gravando-Alterações-em-Seu-Repositório - ver depois
+  01 O que é Git?  O que são (e para que servem) sistemas de controle de versões e como eles podem ajudar o nosso fluxo de desenvolvimento  Nos ajudam a manter um histórico de alterações; Nos ajudam a ter controle sobre cada alteração no código; Nos ajudam para que uma alteração de determinada pessoa não influencie na alteração realizada por outra; Etc.</description>
+    </item>
+    
+    <item>
       <title>Livros</title>
       <link>http://walves.blog.br/wiki/livros/</link>
       <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
