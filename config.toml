@@ -4,7 +4,7 @@ title = "Wllyssys Alves"
 theme = "cactus"
 copyright = "Wllyssys Alves" # cactus will use title if copyright is not set
 disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-# googleAnalytics = "UA-1234-5"
+googleAnalytics = "G-HXH6DH6PKM"
 
 publishDir = "docs"
 
