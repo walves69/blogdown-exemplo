@@ -2,16 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://walves.blog.br/posts/20220921-pequena-sereia-negra/</loc>
+    <lastmod>2022-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/tags/quadrinhos/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/tags/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/20220710-tangencias-miguelanxo-prado/</loc>
+    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/tags/livros/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/20220102-os-vagabundos-iluminados/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/wiki/indieweb/</loc>
+    <lastmod>2021-10-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://walves.blog.br/posts/che-biografia-quadrinhos/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://walves.blog.br/posts/</loc>
-    <lastmod>2021-09-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://walves.blog.br/</loc>
-    <lastmod>2021-09-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://walves.blog.br/posts/202109/</loc>
+    <lastmod>2021-09-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/202110/</loc>
     <lastmod>2021-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://walves.blog.br/wiki/threads-twitter/</loc>
@@ -38,11 +62,33 @@
     <loc>http://walves.blog.br/posts/2021-caixa-de-entrada/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://walves.blog.br/posts/20201220-kraken-a-sangue-frio-com-sangue-quente/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/20201220-kraken-de-possessoes-e-exorcismos/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/20201220-kraken-meu-querido-monstro/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/20201220-kraken-maes-mas-tiras-piores/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/20201220-kraken-o-poder-gosta-dos-esgotos/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/20201220-kraken-ouro-sujo-e-eterno/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/20201220-kraken-tem-coragem-de-apertar-o-botao/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://walves.blog.br/posts/20201220-kraken-um-novo-metodo-para-escrever-roteiros/</loc>
+    <lastmod>2022-10-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://walves.blog.br/about/</loc>
     <lastmod>2016-08-24T17:51:42+00:00</lastmod>
   </url><url>
     <loc>http://walves.blog.br/categories/</loc>
-  </url><url>
-    <loc>http://walves.blog.br/tags/</loc>
   </url>
 </urlset>

@@ -1,0 +1,26 @@
+---
+title: Mães más, tiras piores
+description: Texto de Antonio Segura no quadrinho Kraken publicado pela editora Figura.
+date: 2020-12-20
+lastmod: 2022-10-08
+tags:
+    - quadrinhos
+---
+
+# Mães más, tiras piores
+
+Texto publicado na revista Kraken n. 6 ( Ed. Glenat, Espanha, 1997 )
+
+A raça humana é um pouco como o Rato: suporta tudo, ou quase tudo. O Rato vocês já conhecem, apareceu no número quatro desta coleção como coadjuvante de uma história intitulada justamente "Ratos" [pag. 83 deste livro], em que mostrou como é durão, como está preparado para sobreviver numa socieda tão endiabradamente agressiva como a nossa. Na história intitulada "Amor de mãe", o Rato insiste em nos demonstrar que é osso duro de roer, que andar pela vida meio amputado não o afeta de jeito nenhum - e nisso é igual a mim e a vocês. Todos nós perdemos, no transcurso disto que chamamos de vida, parte de nossa anatomia ética: perdemos parte de nosso idealismo, de nossa generosidade, da capacidade de encarnar o Bem de forma natural. Como o Rato, nós também somos enrabados uma infinidade de vezes, se não anatomicamente, moralmente. Fomos violados pelo chefe prepotente, pelo sargento embrutecido, pelas leis injustas emanadas do poder político - e aguentamos tudo, como o Rato.
+
+No que nos diferenciamos do Rato, no que somos piores que ele, é que vocês e eu temos mães como Deus manda, mas isso não representou nenhuma vantagem. Eu, particularmente, no lugar de minha mãe, que me educou para ser um bom cidadão, e portanto perfeitamente triturável, adoraria ter tido uma mãe como a do Rato: de aparência tímida, recatada, tão encantadora e levando na sacola de compras um revólver com seis balas com que liquidou "não lembro muito bem quantos safados. Sabe como é... minha memória já não é a mesma". Estou totalmente convencido de que se nossas respectivas mães em vez de nos educar como cidadãos modelos, de nos fazer tomar a primeira comunhão vestidos de marinheirinhos, de impedir que comêssemos nossa prima Mari Carmen (que não esperava outra coisa) e de nos obrigar a devolver aquela carteira cheia de notas que encontramos na escada e que era do vizinho do quinto andar, tivessem nos educado na convicção de que esta nossa sociedade é uma pura porcaria, em que só os grandes canalhas riem todos os dias, o mundo funcionaria muito melhor. Em vez de haver tanta gente boa de que as pessoas más se aproveitam, seriamos todos uns verdadeiros filhos da puta, uns assassinos morais de comer o fígado de nossas próprias mães. Então, como o senhor Roldán (1) iria se atrever a se conceder um salário duplo às custas do contribuinte ou o senhor Conde (2) a arrasar um banco? Como o político de turno ia nos prometer o céu em plena terra enquanto saqueja com seus impostos nossa parca economia doméstica ou como o sindicalista ia decidir que defende nossos interesses enquanto olha para outro lado para não ver como o sistema furta dia após dia nossa futura e imperfeita aposentadoria? Sim, senhores, com mães como a do Rato, essas coisas não aconteceriam. Os citados anteriormente teriam tanto medo de nós, tanto respeito, que não se atreveriam a arriscar a pele. Mas como somos bons, porra, aproveitam-se da gente - e isso me irrita pra caramba.
+
+Deixo de lhes falar de mães más, que talvez sejam boas, para comentar a outra história desta revista, intitulada "O meIhor policial da cidade”, a recriação de um mau policial, ou a lembrança de como um excelente filme mudou minha vida. Eu era um menino quando, num cinema de bairro, vi, pela primei ra vez, um filme fabuloso e desestabilizador. Refiro-me ao A Marca da Maldade, dirigido e interpretado por Orson Welles.
+
+O senhor Welles encarnava um velho policial, um sabujo de faro infalível para o crime. O senhor Welles, apesar de ser a antítese física do herói a que eu estava acostumado, com sua gordura desmedida, seus charutos fedorentos, sua roupa cheia de manchas, sua barba crescida, seu mau caráter e seu alcoolismo avançado, cativou com sua personalidade forte meu espírito impressionável. Porra, era como meu avô - meu avô sempre sabia o que fazer; eu tinha aprendido a confiar cegamente nele -, e além do mais, aquele cidadão era um policial. Na certa que descobria o assassino antes do outro policial, o que era jovem e bonito, mas um tanto bobalhão.
+
+Quando o filme acabou, o balão tinha murchado. O diabo era que aquele policial que me lembrava meu avô, pelo visto fraudava as provas para meter em cana pessoas inocentes. A decepção foi enorme. Acabava de conhecer o primeiro tira mau da minha vida - e isso marca. Tanto que agora, que sou adulto, decidi escrever um roteiro de Kraken no qual o Orson de A Marca da Maldade continuava fazendo das suas, perpetuando a história que hoje sei que é correta: que nem sempre a Lei e a Justiça são como meu avô, gente honrada em que se pode confiar de olhos fechados, e que a Justiça tem uma venda tapando os seus, coisa que sempre achei esquisita.
+
+(1) Luis Roldán Ibáñez (Espanha, 1943) é um ex-politico do partido PSOE, envolvido em um escândalo de corrupção quando era diretor da Guarda Civil espanhola. Foi condenado a 31 anos de cadeia, em 1995. 
+
+(2) Mario Antonio Conde (Espanha, 1948), jurista, empresário e político, condenado a 20 anos de prisão pelos crimes de fraude e apropriação indébita no caso no banco espanhol Banesto.

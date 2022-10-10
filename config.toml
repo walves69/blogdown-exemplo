@@ -1,5 +1,5 @@
 baseURL = "http://walves.blog.br/"
-languageCode = "pt-br"
+languageCode = "pt_BR"
 title = "Wllyssys Alves"
 theme = "cactus"
 copyright = "Wllyssys Alves" # cactus will use title if copyright is not set
@@ -7,6 +7,7 @@ disqusShortname = "example" # Used when comments is enabled. Cactus will use sit
 googleAnalytics = "G-HXH6DH6PKM"
 
 publishDir = "docs"
+ignoreErrors = ["error-remote-getjson"]
 
 
 # summaryLength = 2
@@ -51,7 +52,7 @@ weight = 3
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Trabalhando no Banco do Brasil e estudando Ciência de Dados. Este local surgiu inspirado nas ideias da comunidade [IndieWeb](https://indieweb.org/) e [Digital Garden](https://maggieappleton.com/garden-history/)."
+  description = "Programador, arquivista e estudando Ciência de Dados. Este local surgiu inspirado nas ideias da comunidade [IndieWeb](https://indieweb.org/) e [Digital Garden](https://maggieappleton.com/garden-history/)."
   mainSection = "posts" # your main section
   mainSectionTitle = "Blog"
   showAllPostsOnHomePage = false # default
